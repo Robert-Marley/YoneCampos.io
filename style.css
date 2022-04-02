@@ -103,7 +103,9 @@ body {
 }
 
 
-
+/*****************
+  WIDTH DOS LINKS
+******************/
 @media  (min-width: 600px) and (max-width: 740px) {
     .links .link{
         width: 70%;
@@ -123,7 +125,141 @@ body {
     }
 }
 
-@media (min-width: 300px) and (max-width: 400px) {
+/***************
+  TELAS MENORES
+****************/
+@media (min-width: 200px) and (max-width: 210px) {
+    html {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .profile, .links {
+        width: 90%;
+    }
+
+    .profile h1 {
+        font-size: 0.9em;
+    }
+
+    .profile h3 {
+        font-size: 0.8em;
+    }
+
+    .profile h4 {
+        font-size: 0.65em;
+    }
+
+    .links h3 {
+        font-size: 1em;
+    }
+
+    .footer {
+        width: 90%;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 211px) and (max-width: 236px) {
+    html {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .profile, .links {
+        width: 90%;
+    }
+
+    .profile h1 {
+        font-size: 1em;
+    }
+
+    .profile h3 {
+        font-size: 0.8em;
+    }
+
+    .profile h4 {
+        font-size: 0.7em;
+    }
+
+    .links h3 {
+        font-size: 1.1em;
+    }
+
+    .footer {
+        width: 90%;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 237px) and (max-width: 259px) {
+    html {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .profile, .links {
+        width: 90%;
+    }
+
+    .profile h1 {
+        font-size: 18px;
+    }
+
+    .profile h3 {
+        font-size: 15px;
+    }
+
+    .profile h4 {
+        font-size: 12px;
+    }
+
+    .footer {
+        width: 90%;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 260px) and (max-width: 299px) {
+    html {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .profile h1 {
+        font-size: 20px;
+    }
+
+    .profile h3 {
+        font-size: 15px;
+    }
+
+    .profile h4 {
+        font-size: 13px;
+    }
+
+    .footer {
+        width: 260px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 2000px) {
     html {
         width: 100vw;
         height: 100vh;
@@ -133,7 +269,7 @@ body {
         font-size: 24px;
     }
 
-    .profile h2 {
+    .profile h3 {
         font-size: 18px;
     }
 
@@ -144,5 +280,8 @@ body {
     .footer {
         width: 280px;
         font-size: 15px;
+        margin-bottom: 10px;
     }
 }
+
+

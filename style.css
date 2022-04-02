@@ -117,7 +117,7 @@ body {
     }
 }
 
-@media (min-width: 1441px) and (max-width: 1840px) {
+@media (min-width: 1441px) and (max-width: 2000px) {
     .links .link {
         width: 540px;
     }

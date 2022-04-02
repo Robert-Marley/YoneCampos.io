@@ -101,3 +101,48 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
+
+
+
+@media  (min-width: 600px) and (max-width: 740px) {
+    .links .link{
+        width: 70%;
+    }
+    
+}
+
+@media (min-width: 741px) and (max-width: 1440px) {
+    .links .link {
+        width: 521px;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1840px) {
+    .links .link {
+        width: 540px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    html {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .profile h1 {
+        font-size: 24px;
+    }
+
+    .profile h2 {
+        font-size: 18px;
+    }
+
+    .profile h4 {
+        font-size: 13px;
+    }
+
+    .footer {
+        width: 280px;
+        font-size: 15px;
+    }
+}
